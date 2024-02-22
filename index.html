@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Shop - Cheer Up</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap-grid.min.css" integrity="sha512-i1b/nzkVo97VN5WbEtaPebBG8REvjWeqNclJ6AItj7msdVcaveKrlIIByDpvjk5nwHjXkIqGZscVxOrTb9tsMA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+  <header class="header" id="header"></header>
+  <main class="main">
+    <section id="hero mb-2">
+      <div class="hero-content ">
+          <div class="hero-top mb-5 mt-5 ">
+            <div class="hero-top__img-container">
+              <img src="./assets/img/cheerup-blog-theme.png" alt="" class="hero-top__img">
+            </div>
+          </div>
+          <div class="hero-bottom p-5">
+            <h6 class="hero-bottom__header">Browsing</h6>
+            <h2 class="hero-bottom__title">The Shop</h2>
+          </div>
+          <div class="empty"></div>
+      </div>
+    </section>
+    <section id="shop mb-2">
+      <div class="container">
+        <div class="shop-content">
+          <div class="row">
+            <div class="products col-lg-8 col-sm-12">
+              <div class="product-boxes">
+                <div class="product-sort mb-5">
+                  <form action="" class="sort-form" method="post" role="form">
+                    <input type="hidden" class="sort-input" name="menu">
+                    <div class="dropdown-menu">
+                      <span class="btn-white">Sort By Latest
+                        <i class="fa-solid fa-chevron-down"></i>
+                      </span>
+                      <ul class="dropdown-body">
+                        <li class="dropdown-body__element">
+                          <a href="">Sort By Popularity</a>
+                        </li>
+                        <li class="dropdown-body__element">
+                          <a href="">Sort By Averaga Rating</a>
+                        </li>
+                        <li class="dropdown-body__element active-btn ">
+                          <a href="">Sort By Latest</a>
+                        </li>
+                        <li class="dropdown-body__element">
+                          <a href="">Sort by price: low to high</a>
+                        </li>
+                        <li class="dropdown-body__element">
+                          <a href="">Sort by price: high to low</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </form>
+                </div>
+                <div class="product-items mb-5">
+                  <div class="product-list">
+                    <article class="product-content product-z-0 ">
+                      <div class="product-box">
+                        <div class="product-box__img-container">
+                          <a href="" class="product-box__img-link">
+                            <img src="./assets/img/tunic-dress-scaled-540x540.jpg" alt="Dress" class="product-box__img">
+                            <a href="" class="btn btn-add">
+                              <i class="fa-solid fa-cart-shopping"></i>
+                              Add to card
+                            </a>
+                            <div class="product-box__stars">
+                              <i class="fa-solid fa-star product-box__star"></i>
+                              <i class="fa-solid fa-star product-box__star"></i>
+                              <i class="fa-solid fa-star product-box__star"></i>
+                              <i class="fa-solid fa-star product-box__star"></i>
+                              <i class="fa-solid fa-star product-box__star"></i>
+                            </div>
+                          </a>
+                        </div>
+                        <div class="product-info">
+                          <h3 class="product-info__name">
+                            <a href="" class="product-info_link">Tunic Dress</a>
+                          </h3>
+                          <h5 class="product-info__category">
+                            <a href="" class="product-info__category-link">Dresses</a>
+                          </h5>
+                          <h4 class="product-info__price">$ 67</h4>
+                        </div>
+                      </div>
+                    </article>
+                    <article class="product-content">
+                      <div class="product-box">
+                        <div class="product-box__img-container">
+                          <a href="" class="product-box__img-link">
+                            <img src="./assets/img/denim-bag-540x540.jpg" alt="Acccessories" class="product-box__img">
+                            <a href="" class="btn btn-add">
+                              <i class="fa-solid fa-cart-shopping"></i>
+                              Add to card
+                            </a>
+                          </a>
+                        </div>
+                        <div class="product-info">
+                          <h3 class="product-info__name">
+                            <a href="" class="product-info_link">Denim Bag</a>
+                          </h3>
+                          <h5 class="product-info__category">
+                            <a href="" class="product-info__category-link">Acccessories</a>
+                          </h5>
+                          <h4 class="product-info__price">$54</h4>
+                        </div>
+                      </div>
+                    </article>
+                    <article class="product-content">
+                      <div class="product-box">
+                        <div class="product-box__img-container">
+                          <a href="" class="product-box__img-link">
+                            <img src="./assets/img/skinny-jeans-scaled-540x540.jpg" alt="Dress" class="product-box__img">
+                            <a href="" class="btn btn-add">
+                              <i class="fa-solid fa-cart-shopping"></i>
+                              Add to card
+                            </a>
+                          </a>
+                        </div>
+                        <div class="product-info">
+                          <h3 class="product-info__name">
+                            <a href="" class="product-info_link">Skinny Jeans</a>
+                          </h3>
+                          <h5 class="product-info__category">
+                            <a href="" class="product-info__category-link">Dresses</a>
+                          </h5>
+                          <h4 class="product-info__price">$ 36</h4>
+                        </div>
+                      </div>
+                    </article>
+                    <article class="product-content">
+                      <div class="product-box">
+                        <div class="product-box__img-container">
+                          <a href="" class="product-box__img-link">
+                            <img src="./assets/img/wood-heel-540x540.jpg" alt="Acccessories" class="product-box__img">
+                            <a href="" class="btn btn-add">
+                              <i class="fa-solid fa-cart-shopping"></i>
+                              Add to card
+                            </a>
+                          </a>
+                        </div>
+                        <div class="product-info">
+                          <h3 class="product-info__name">
+                            <a href="" class="product-info_link">Wood Heel</a>
+                          </h3>
+                          <h5 class="product-info__category">
+                            <a href="" class="product-info__category-link">Acccessories</a>
+                          </h5>
+                          <h4 class="product-info__price">$ 67</h4>
+                        </div>
+                      </div>
+                    </article>
+                    <article class="product-content">
+                      <div class="product-box">
+                        <div class="product-box__img-container">
+                          <a href="" class="product-box__img-link">
+                            <img src="./assets/img/belted-dress-scaled-540x540.jpg" alt="Dress" class="product-box__img">
+                            <a href="" class="btn btn-add">
+                              <i class="fa-solid fa-cart-shopping"></i>
+                              Add to card
+                            </a>
+                            <div class="product-box__sale">
+                              <span class="product-box__sale-title btn">Sale!</span>
+                            </div>
+                          </a>
+                        </div>
+                        <div class="product-info">
+                          <h3 class="product-info__name">
+                            <a href="" class="product-info_link">Belted Dress</a>
+                          </h3>
+                          <h5 class="product-info__category">
+                            <a href="" class="product-info__category-link">Dresses</a>
+                          </h5>
+                          <h4 class="product-info__price"><del class="product-info__old-price">$ 49</del> $ 67</h4>
+                        </div>
+                      </div>
+                    </article>
+                    <article class="product-content">
+                      <div class="product-box">
+                        <div class="product-box__img-container">
+                          <a href="" class="product-box__img-link">
+                            <img src="./assets/img/isabelle-skirt-scaled-540x540.jpg" alt="Pants & Jeans" class="product-box__img">
+                            <a href="" class="btn btn-add">
+                              <i class="fa-solid fa-cart-shopping"></i>
+                              Add to card
+                            </a>
+                          </a>
+                        </div>
+                        <div class="product-info">
+                          <h3 class="product-info__name">
+                            <a href="" class="product-info_link">Isabelle Skirt</a>
+                          </h3>
+                          <h5 class="product-info__category">
+                            <a href="" class="product-info__category-link">Pants & Jeans</a>
+                          </h5>
+                          <h4 class="product-info__price">$ 49</h4>
+                        </div>
+                      </div>
+                    </article>
+                    <article class="product-content">
+                      <div class="product-box">
+                        <div class="product-box__img-container">
+                          <a href="" class="product-box__img-link">
+                            <img src="./assets/img/curzon-culotte-scaled-540x540.jpg" alt="Dress" class="product-box__img">
+                            <a href="" class="btn btn-add">
+                              <i class="fa-solid fa-cart-shopping"></i>
+                              Add to card
+                            </a>
+                          </a>
+                        </div>
+                        <div class="product-info">
+                          <h3 class="product-info__name">
+                            <a href="" class="product-info_link">Curzon Cullote</a>
+                          </h3>
+                          <h5 class="product-info__category">
+                            <a href="" class="product-info__category-link">Dresses</a>
+                          </h5>
+                          <h4 class="product-info__price">$ 32</h4>
+                        </div>
+                      </div>
+                    </article>
+                    <article class="product-content">
+                      <div class="product-box">
+                        <div class="product-box__img-container">
+                          <a href="" class="product-box__img-link">
+                            <img src="./assets/img/florence-point-2-scaled-540x540.jpg" alt="Acccessories" class="product-box__img">
+                            <a href="" class="btn btn-add">
+                              <i class="fa-solid fa-cart-shopping"></i>
+                              Add to card
+                            </a>
+                          </a>
+                        </div>
+                        <div class="product-info">
+                          <h3 class="product-info__name">
+                            <a href="" class="product-info_link">Florence Point</a>
+                          </h3>
+                          <h5 class="product-info__category">
+                            <a href="" class="product-info__category-link">Accessories</a>
+                          </h5>
+                          <h4 class="product-info__price">$ 49</h4>
+                        </div>
+                      </div>
+                    </article>
+                    <article class="product-content">
+                      <div class="product-box">
+                        <div class="product-box__img-container">
+                          <a href="" class="product-box__img-link">
+                            <img src="./assets/img/tilly-bag-scaled-540x540.jpg" alt="Acccessories" class="product-box__img">
+                            <a href="" class="btn btn-add">
+                              <i class="fa-solid fa-cart-shopping"></i>
+                              Add to card
+                            </a>
+                          </a>
+                        </div>
+                        <div class="product-info">
+                          <h3 class="product-info__name">
+                            <a href="" class="product-info_link">Tilly Bag</a>
+                          </h3>
+                          <h5 class="product-info__category">
+                            <a href="" class="product-info__category-link">Acccessories</a>
+                          </h5>
+                          <h4 class="product-info__price">$ 42</h4>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="products col-lg-4 col-sm-12">
+              <div class="product-sidebar">
+                <div class="sidebar">
+                  <div class="sidebar-filter">
+                    <span class="btn-white text-center">Filter by price</span>
+                    <!-- filter -->
+                    <fieldset class="filter-price mt-5 ">
+                      <div class="price-field">
+                        <input type="range"  min="30" max="70" value="30" id="lower">
+                        <input type="range" min="30" max="70" value="70" id="upper">
+                      </div>
+                       <div class="price-wrap mb-5">
+                        <button type="submit" class="price-title btn">FILTER</button>
+                        <div class="price-box">
+                          <span id="price">Price</span>
+                        <div class="price-wrap-1">
+                          <label for="one">$</label>
+                          <input id="one">
+                        </div>
+                        <div class="price-wrap_line">-</div>
+                        <div class="price-wrap-2">
+                          <input id="two">
+                          <label for="two">$</label>
+                        </div>
+                      </div>
+                      </div>
+                    </fieldset> 
+                  </div>
+                  <div class="sidebar-categories mb-5">
+                    <span class="btn-white text-center mb-4">Product Categories</span>
+                    <ul class="sidebar-category__list">
+                      <li class="sidebar-category__item">
+                        <a href="" class="sidebar-category__link">Accessories</a>
+                        <span class="sidebar-category__count">(4)</span>
+                      </li>
+                      <li class="sidebar-category__item">
+                        <a href="" class="sidebar-category__link">Dresses</a>
+                        <span class="sidebar-category__count">(5)</span>
+                      </li>
+                      <li class="sidebar-category__item">
+                        <a href="" class="sidebar-category__link">Pants & Jeans</a>
+                        <span class="sidebar-category__count">(5)</span>
+                      </li>
+                      <li class="sidebar-category__item">
+                        <a href="" class="sidebar-category__link">Uncategorized</a>
+                        <span class="sidebar-category__count">(0)</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="sidebar-rated">
+                    <span class="btn-white text-center mb-5">Top rated products</span>
+                    <ul class="rated-list">
+                      <li class="rated-list__item">
+                        <a href="" class="rated-list__link">
+                          <div class="rated-list__img-container">
+                            <img src="./assets/img/tunic-dress-scaled-540x540.jpg" alt="Dress" class="rated-list__img">
+                          </div>
+                        </a>
+                        <div class="rated-list__info">
+                          <a  href="" class="rated-list__info-name">Tunic Dress</a>
+                          <div class="product-box__stars product-box__stars-d-block mb-2">
+                              <i class="fa-solid fa-star product-box__star"></i>
+                              <i class="fa-solid fa-star product-box__star"></i>
+                              <i class="fa-solid fa-star product-box__star"></i>
+                              <i class="fa-solid fa-star product-box__star"></i>
+                              <i class="fa-solid fa-star product-box__star"></i>
+                          </div>
+                          <span class="rated-list__info-cost">$ 40</span>
+                        </div>
+                      </li>
+                      <li class="rated-list__item">
+                        <a href="" class="rated-list__link">
+                          <div class="rated-list__img-container">
+                            <img src="./assets/img/denim-bag-540x540.jpg" alt="Accessories" class="rated-list__img">
+                          </div>
+                        </a>
+                        <div class="rated-list__info">
+                          <a href="" class="rated-list__info-name">Denim Bag</a>
+                          <span class="rated-list__info-cost">$ 54</span>
+                        </div>
+                      </li>
+                      <li class="rated-list__item">
+                        <a href="" class="rated-list__link">
+                          <div class="rated-list__img-container">
+                            <img src="./assets/img/skinny-jeans-scaled-540x540.jpg" alt="Dress" class="rated-list__img">
+                          </div>
+                        </a>
+                        <div class="rated-list__info">
+                          <a href="" class="rated-list__info-name">Skinny Jeans</a>
+                          <span class="rated-list__info-cost">$ 36</span>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="posts">
+      <div class="container">
+       <div class="posts-content">
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="about-footer">
+              <span class="btn-white btn-border-b mb-4">About</span>
+              <div class="about-footer-content">
+                <img src="./assets/img/about-footer.jpg"  class="about-footer-content__img" alt="">
+                <p class="about-footer-content__paragraph">
+                  Sed ut in perspiciatis unde omnis iste natus error sit on i tatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-12">
+            <div class="latest-footer mb-4">
+              <span class="btn-white btn-border-b">Latest posts</span>
+              <ul class="latest-footer__list">
+                <li class="latest-footer__item">
+                  <div class="latest-footer__item-img">
+                    <a href="" class="latest-footer__link">
+                      <img src="./assets/img/my-new-blond-hair-5-768x512.jpg" alt="Blonde Hair" class="latest-footer__img">
+                    </a>
+                  </div>
+                  <div class="latest-footer__item-info">
+                    <a href="" class="latest-footer__item-info-category">Fashion</a>
+                    <a href="" class="latest-footer__item-info-time">15.05.2016</a>
+                    <p class="latest-footer__item-info-title">my new blonde hair</p>
+                    <p class="latest-footer__item-info-subtitle">
+                      More off this less hello salamander li...
+                    </p>
+                  </div>
+                </li>
+                <li class="latest-footer__item">
+                  <div class="latest-footer__item-img">
+                    <a href="" class="latest-footer__link">
+                      <img src="./assets/img/still-in-the-bed-7-1170x781.jpg" alt="Bed" class="latest-footer__img">
+                    </a>
+                  </div>
+                  <div class="latest-footer__item-info">
+                    <a href="" class="latest-footer__item-info-category">Fashion</a>
+                    <a href="" class="latest-footer__item-info-time">15.05.2016</a>
+                    <p class="latest-footer__item-info-title">still in the bed</p>
+                    <p class="latest-footer__item-info-subtitle">
+                      More off this less hello salamander li...
+                    </p>
+                  </div>
+                </li>
+                <li class="latest-footer__item">
+                  <div class="latest-footer__item-img">
+                    <a href="" class="latest-footer__link">
+                      <img src="./assets/img/plants-at-the-table-1170x913.jpg" alt="Casual Outfit" class="latest-footer__img">
+                    </a>
+                  </div>
+                  <div class="latest-footer__item-info">
+                    <a href="" class="latest-footer__item-info-category">Beauty</a>
+                    <a href="" class="latest-footer__item-info-time">15.05.2016</a>
+                    <p class="latest-footer__item-info-title">in casual outfit</p>
+                    <p class="latest-footer__item-info-subtitle">
+                      More off this less hello salamander li...
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-12">
+            <div class="rated-footer">
+              <span class="btn-white btn-border-b mb-4">Top rated products</span>
+              <ul class="rated-list">
+                <li class="rated-list__item no-border">
+                  <a href="" class="rated-list__link">
+                    <div class="rated-list__img-container">
+                      <img src="./assets/img/tunic-dress-scaled-540x540.jpg" alt="Dress" class="rated-list__img">
+                    </div>
+                  </a>
+                  <div class="rated-list__info">
+                    <a  href="" class="rated-list__info-name">Tunic Dress</a>
+                    <div class="product-box__stars product-box__stars-d-block mb-2">
+                        <i class="fa-solid fa-star product-box__star"></i>
+                        <i class="fa-solid fa-star product-box__star"></i>
+                        <i class="fa-solid fa-star product-box__star"></i>
+                        <i class="fa-solid fa-star product-box__star"></i>
+                        <i class="fa-solid fa-star product-box__star"></i>
+                    </div>
+                    <span class="rated-list__info-cost">$ 40</span>
+                  </div>
+                </li>
+                <li class="rated-list__item no-border">
+                  <a href="" class="rated-list__link">
+                    <div class="rated-list__img-container">
+                      <img src="./assets/img/denim-bag-540x540.jpg" alt="Accessories" class="rated-list__img">
+                    </div>
+                  </a>
+                  <div class="rated-list__info">
+                    <a href="" class="rated-list__info-name">Denim Bag</a>
+                    <span class="rated-list__info-cost">$ 54</span>
+                  </div>
+                </li>
+                <li class="rated-list__item no-border">
+                  <a href="" class="rated-list__link">
+                    <div class="rated-list__img-container">
+                      <img src="./assets/img/skinny-jeans-scaled-540x540.jpg" alt="Dress" class="rated-list__img">
+                    </div>
+                  </a>
+                  <div class="rated-list__info">
+                    <a href="" class="rated-list__info-name">Skinny Jeans</a>
+                    <span class="rated-list__info-cost">$ 36</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+       </div>
+      </div>
+    </section>
+    <section id="images">
+      <div class="images-content">
+        <ul class="images-list">
+          <li class="images-list__item">
+            <a href="" class="images-list__link">
+              <img src="./assets/img/insta-file-1.jpg" alt="" class="images-list__img">
+            </a>
+          </li>
+          <li class="images-list__item">
+            <a href="" class="images-list__link">
+              <img src="./assets/img/insta-file-2.jpg" alt="" class="images-list__img">
+            </a>
+          </li>
+          <li class="images-list__item">
+            <a href="" class="images-list__link">
+              <img src="./assets/img/insta-file-3jpg.jpg" alt="" class="images-list__img">
+            </a>
+          </li>
+          <li class="images-list__item">
+            <a href="" class="images-list__link">
+              <img src="./assets/img/insta-file-4.jpg" alt="" class="images-list__img">
+            </a>
+          </li>
+          <li class="images-list__item">
+            <a href="" class="images-list__link">
+              <img src="./assets/img/insta-file-5.jpg" alt="" class="images-list__img">
+            </a>
+          </li>
+          <li class="images-list__item none">
+            <a href="" class="images-list__link">
+              <img src="./assets/img/insta-file-6.jpg" alt="" class="images-list__img">
+            </a>
+          </li>
+          <li class="images-list__item none d-small-none">
+            <a href="" class="images-list__link">
+              <img src="./assets/img/insta-file-7.jpg" alt="" class="images-list__img">
+            </a>
+          </li>
+          <div class="follow">
+            <a href="" class="images-list__link-follow follow-none">
+              <i class="fa-brands fa-instagram icon-instagram"></i>
+              Follow Me!
+            </a>
+          </div>
+        </ul>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-text">
+          <p class="footer-text__copyright">© 2024 ThemeSphere. Designed by <strong><a href="">ThemeSphere</a></strong></p>
+          <a href="#header" class="footer-text__top">
+            <i class="fa-solid fa-chevron-up"></i>
+            Top
+          </a>
+        </div>
+      </div>
+    </footer>
+  </main>
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>
