@@ -633,7 +633,8 @@ a{
 .footer-text__copyright a{
   color: inherit;
 }
-.footer-text__copyright a:hover{
+.footer-text__copyright a:hover,
+.footer-text__top:hover{
   color: var(--text-color);
 }
 .footer-text__top {
